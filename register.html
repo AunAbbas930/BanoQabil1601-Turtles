@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <h1>Want to be a turtle? Register Here!</h1>
+    
+    <form name="register" action="" method="POST">
+    <table>
+      <tr>
+        <td>
+          Your Name:
+        </td>
+        <td>
+          <input type="text" name="name" placeholder="Name" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Your Father's Name:
+        </td>
+        <td>
+          <input type="text" name="fname" placeholder="Father's Name" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Gender:
+        </td>
+        <td>
+          <label><input type="radio" name="gender" checked>Male</label>
+          <label><input type="radio" name="gender">Female</label>
+          <label><input type="radio" name="gender">Other</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+         Date of Birth
+        </td>
+        <td>
+          <input type="date" name="dob" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+         CNIC / Form-B No.:
+        </td>
+        <td>
+          <input type="text" name="cnic" placeholder="XXXXX-XXXXXX-X" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+         Mobile No.:
+        </td>
+        <td>
+          <input type="text" name="mobile" placeholder="XXXX-XXXXXXX" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+         E-mail Address:
+        </td>
+        <td>
+          <input type="email" name="email" placeholder="_________@_______.____" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+         Postal Address:
+        </td>
+        <td>
+          <textarea rows="3" cols="25" name="address" required></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Course interested in:
+        </td>
+        <td>
+          <select size="1" name="course" required>
+            <option value="" hidden selected disabled>---Select---</option>
+            <option value="">Java Script</option>
+            <option value="">Python</option>
+            <option value="">Go</option>
+            <option value="">Java</option>
+            <option value="">Kotlin</option>
+            <option value="">PHP</option>
+            <option value="">C#</option>
+            <option value="">Ruby</option>
+            <option value="">C and C++</option>
+            <option value="">SQL</option>
+            <option value="">CSS</option>
+            <option value="">HTML</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+         Preferred Days:
+        </td>
+        <td>
+          <label><input type="checkbox" name="option1">Monday & Wednesday</label><br>
+          <label><input type="checkbox" name="option1">Tuesday & Thursday</label><br>
+          <label><input type="checkbox" name="option1">Saturday & Sunday</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        Sponsorer's Name (if other than father):
+        </td>
+        <td>
+          <input type="text" name="sponsor" placeholder="Person / Company">
+        </td>
+      </tr>
+      <tr>
+        <td>
+         Sponsorer's Contact No.:
+        </td>
+        <td>
+          <input type="text" name="sponsor_cell" placeholder="XXXX-XXXXXXX">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="reset" name="reset" value="Reset">
+          <input type="submit" name="submit" value="Submit">
+        </td>
+      </tr>
+    </table>
+    </form>
+</body>
+</html>
