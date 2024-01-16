@@ -1,0 +1,9 @@
+body{
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-position-y: 100px;
+  background-position-x: right;
+  background-color: lighten;
+  background-blend-mode: overlay;
+  background-size: 40%;
+}
